@@ -9,7 +9,7 @@ Hibernate y JPA. El despliege se realizó en **Firebase Hosting** y **Heroku**.
 
 ## Requisitos
 
-- [Node.js](https://nodejs.org/) v10+ es requerido para el funcionamiento de Vue-Cli4x
+- [Node.js](https://nodejs.org/) v10+ es requerido para el funcionamiento de Vue-Cli v4x
 - Vuejs 3.22 o superior requerido para Composition Api y <script setup>
 - Java JDK 11
 - Gradle para bajar las dependencias
