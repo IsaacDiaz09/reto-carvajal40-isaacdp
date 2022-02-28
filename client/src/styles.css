@@ -1,0 +1,122 @@
+:root {
+  /* variables css */
+
+  --mybtn-primary-color-disabled: #9FC5E8;
+  --mybtn-primary-color: #3677b2;
+  --mybtn-primary-color-hover: #2a5d8a;
+
+  --mybtn-danger-color-disabled: #E06666;
+  --mybtn-danger-color-hover: #dc143c;
+  --mybtn-danger-color: #ff0000;
+
+  --mybtn-success-color-disabled: #b8e3af;
+  --mybtn-success-color: #6aa84f;
+  --mybtn-success-color-hover: #4a7537;
+
+  --mybtn-warning-color-disabled: #FFE599;
+  --mybtn-warning-color: #ffbc40;
+  --mybtn-warning-color-hover: #ffa500;
+  
+  --mybtn-dark-disabled: #BCBCBC;
+  --mybtn-dark-color: #444444;
+  --mybtn-dark-color-hover: #2F2F2F;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+/* primary */
+.primary {
+  background-color: var(--mybtn-primary-color);
+}
+
+.primary:hover {
+  background-color: var(--mybtn-primary-color-hover);
+}
+
+.primary:disabled,
+.primary:disabled:hover {
+  background-color: var(--mybtn-primary-color-disabled);
+}
+
+/* danger */
+.danger {
+  background-color: var(--mybtn-danger-color) !important;
+}
+
+.danger:hover {
+  background-color: var(--mybtn-danger-color);
+}
+
+.danger:disabled,
+.danger:disabled:hover {
+  background-color: var(--mybtn-danger-color-disabled);
+}
+
+/* success */
+.success {
+  background-color: var(--mybtn-success-color);
+}
+
+.success:hover {
+  background-color: var(--mybtn-success-color-hover);
+}
+
+.success:disabled,
+.success:disabled:hover {
+  background-color: var(--mybtn-success-color-disabled);
+}
+
+/* warning */
+.warning {
+  background-color: var(--mybtn-warning-color);
+}
+
+.warning:hover {
+  background-color: var(--mybtn-warning-color-hover);
+}
+
+.warning:disabled, .warning:disabled:hover {
+  background-color: var(--mybtn-warning-color-disabled);
+}
+
+/* dark */
+.dark {
+  background-color: var(--mybtn-dark-color);
+}
+
+.dark:disabled, .dark:disabled:hover {
+  background-color: var(--mybtn-dark-disabled);
+}
+
+.dark:hover {
+  background-color: var(--mybtn-dark-color-hover);
+}
+
+/* inputs with no border */
+input {
+  border-radius: 0 !important;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  background-color: aliceblue;
+  padding: 16px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
